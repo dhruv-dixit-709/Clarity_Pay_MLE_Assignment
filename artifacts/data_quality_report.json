@@ -1,0 +1,364 @@
+{
+  "csv_summary": {
+    "valid_merchant_count": 50,
+    "invalid_row_count": 0,
+    "countries_present": [
+      "Austria",
+      "Belgium",
+      "Bulgaria",
+      "Croatia",
+      "Czech Republic",
+      "Denmark",
+      "Finland",
+      "France",
+      "Germany",
+      "Greece",
+      "Hungary",
+      "Ireland",
+      "Italy",
+      "Netherlands",
+      "Norway",
+      "Poland",
+      "Portugal",
+      "Romania",
+      "Slovakia",
+      "Spain",
+      "Sweden",
+      "United Kingdom",
+      "United States"
+    ],
+    "duplicate_merchant_ids_rejected": 0
+  },
+  "collated_summary": {
+    "merchant_count": 50,
+    "uk_merchant_count": 26,
+    "merchant_with_registration_count": 26,
+    "missing_region_count": 0,
+    "missing_subregion_count": 0,
+    "missing_review_date_count": 0,
+    "observed_high_dispute_count": 16
+  },
+  "internal_risk_distribution": {
+    "high": 7,
+    "low": 28,
+    "medium": 15
+  },
+  "quality_flag_counts": {
+    "api_txn_mismatch": 23,
+    "api_volume_mismatch": 24,
+    "avg_ticket_mismatch": 39
+  },
+  "merchant_quality_flags": [
+    {
+      "merchant_id": "M003",
+      "flags": [
+        "api_volume_mismatch",
+        "api_txn_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M004",
+      "flags": [
+        "api_volume_mismatch",
+        "api_txn_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M006",
+      "flags": [
+        "api_volume_mismatch",
+        "api_txn_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M007",
+      "flags": [
+        "api_volume_mismatch",
+        "api_txn_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M008",
+      "flags": [
+        "api_txn_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M010",
+      "flags": [
+        "avg_ticket_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M011",
+      "flags": [
+        "api_volume_mismatch",
+        "api_txn_mismatch",
+        "avg_ticket_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M012",
+      "flags": [
+        "api_volume_mismatch",
+        "avg_ticket_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M013",
+      "flags": [
+        "api_volume_mismatch",
+        "api_txn_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M014",
+      "flags": [
+        "avg_ticket_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M016",
+      "flags": [
+        "avg_ticket_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M017",
+      "flags": [
+        "avg_ticket_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M018",
+      "flags": [
+        "avg_ticket_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M019",
+      "flags": [
+        "api_txn_mismatch",
+        "avg_ticket_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M020",
+      "flags": [
+        "api_volume_mismatch",
+        "api_txn_mismatch",
+        "avg_ticket_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M021",
+      "flags": [
+        "avg_ticket_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M022",
+      "flags": [
+        "api_volume_mismatch",
+        "api_txn_mismatch",
+        "avg_ticket_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M023",
+      "flags": [
+        "api_volume_mismatch",
+        "api_txn_mismatch",
+        "avg_ticket_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M024",
+      "flags": [
+        "api_volume_mismatch",
+        "api_txn_mismatch",
+        "avg_ticket_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M025",
+      "flags": [
+        "avg_ticket_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M026",
+      "flags": [
+        "avg_ticket_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M027",
+      "flags": [
+        "avg_ticket_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M028",
+      "flags": [
+        "api_txn_mismatch",
+        "avg_ticket_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M029",
+      "flags": [
+        "avg_ticket_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M030",
+      "flags": [
+        "api_volume_mismatch",
+        "api_txn_mismatch",
+        "avg_ticket_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M031",
+      "flags": [
+        "api_volume_mismatch",
+        "avg_ticket_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M032",
+      "flags": [
+        "api_volume_mismatch",
+        "avg_ticket_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M033",
+      "flags": [
+        "api_volume_mismatch",
+        "api_txn_mismatch",
+        "avg_ticket_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M034",
+      "flags": [
+        "avg_ticket_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M035",
+      "flags": [
+        "api_txn_mismatch",
+        "avg_ticket_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M036",
+      "flags": [
+        "api_volume_mismatch",
+        "api_txn_mismatch",
+        "avg_ticket_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M037",
+      "flags": [
+        "api_volume_mismatch",
+        "api_txn_mismatch",
+        "avg_ticket_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M038",
+      "flags": [
+        "avg_ticket_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M039",
+      "flags": [
+        "avg_ticket_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M040",
+      "flags": [
+        "api_volume_mismatch",
+        "avg_ticket_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M041",
+      "flags": [
+        "api_volume_mismatch",
+        "api_txn_mismatch",
+        "avg_ticket_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M042",
+      "flags": [
+        "api_txn_mismatch",
+        "avg_ticket_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M043",
+      "flags": [
+        "api_volume_mismatch",
+        "api_txn_mismatch",
+        "avg_ticket_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M044",
+      "flags": [
+        "api_volume_mismatch",
+        "avg_ticket_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M045",
+      "flags": [
+        "api_volume_mismatch",
+        "api_txn_mismatch",
+        "avg_ticket_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M046",
+      "flags": [
+        "api_volume_mismatch",
+        "avg_ticket_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M047",
+      "flags": [
+        "avg_ticket_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M048",
+      "flags": [
+        "avg_ticket_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M049",
+      "flags": [
+        "api_volume_mismatch",
+        "api_txn_mismatch",
+        "avg_ticket_mismatch"
+      ]
+    },
+    {
+      "merchant_id": "M050",
+      "flags": [
+        "avg_ticket_mismatch"
+      ]
+    }
+  ]
+}

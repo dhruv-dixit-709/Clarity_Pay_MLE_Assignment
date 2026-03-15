@@ -1,0 +1,77 @@
+{
+  "roc_auc": 0.8,
+  "classification_report": "              precision    recall  f1-score   support\n\n           0       0.78      0.70      0.74        10\n           1       0.50      0.60      0.55         5\n\n    accuracy                           0.67        15\n   macro avg       0.64      0.65      0.64        15\nweighted avg       0.69      0.67      0.67        15\n",
+  "train_positive_rate": 0.3142857142857143,
+  "test_positive_rate": 0.3333333333333333,
+  "model_feature_columns": [
+    "log_monthly_volume",
+    "log_last_30d_volume",
+    "log_last_30d_txn_count",
+    "avg_ticket_size",
+    "csv_implied_avg_ticket",
+    "api_volume_to_monthly_volume_ratio",
+    "api_txn_to_csv_txn_ratio",
+    "avg_ticket_gap_ratio",
+    "risk_flag_encoded",
+    "review_age_days",
+    "risk_flag_x_review_stale",
+    "volume_band",
+    "region",
+    "subregion",
+    "merchant_sector",
+    "registration_type",
+    "has_registration_number",
+    "is_uk",
+    "review_is_stale",
+    "missing_country_enrichment",
+    "volume_mismatch_flag",
+    "avg_ticket_mismatch_flag"
+  ],
+  "label_column": "high_dispute_risk",
+  "training_row_count": 35,
+  "test_row_count": 15,
+  "top_positive_features": [
+    {
+      "feature": "cat__registration_type_oc",
+      "coefficient": 0.7333174721337145
+    },
+    {
+      "feature": "cat__merchant_sector_beauty_wellness",
+      "coefficient": 0.7122948722814828
+    },
+    {
+      "feature": "cat__merchant_sector_food_restaurants",
+      "coefficient": 0.662489990026014
+    },
+    {
+      "feature": "num__review_age_days",
+      "coefficient": 0.4672994965443832
+    },
+    {
+      "feature": "cat__volume_band_small",
+      "coefficient": 0.4426992684222053
+    }
+  ],
+  "top_negative_features": [
+    {
+      "feature": "bool__volume_mismatch_flag",
+      "coefficient": -0.9833211932213032
+    },
+    {
+      "feature": "num__log_monthly_volume",
+      "coefficient": -0.7603116674515128
+    },
+    {
+      "feature": "cat__merchant_sector_software_tech",
+      "coefficient": -0.702728361248473
+    },
+    {
+      "feature": "cat__merchant_sector_education_media",
+      "coefficient": -0.526228409575454
+    },
+    {
+      "feature": "cat__merchant_sector_finance_professional",
+      "coefficient": -0.5252459507941096
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+requests
+beautifulsoup4
+pydantic
+pydantic-settings
+jsonschema
+pandas
+scikit-learn
+pypdf
+reportlab
+google-generativeai
+python-dotenv
+pytest

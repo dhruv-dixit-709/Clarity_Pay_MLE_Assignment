@@ -1,0 +1,6 @@
+{
+  "merchant_count": 50.0,
+  "expected_high_risk_merchants": 21.062796933890837,
+  "expected_loss_proxy_total": 50877.58215089665,
+  "mean_predicted_risk_probability": 0.42125593867781674
+}
